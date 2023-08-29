@@ -3,7 +3,7 @@
 const genRestaurantCard = (restaurant) => {
   const card = document.createElement("div");
   card.className = "card";
-  card.style = "width : 18rem;";
+  card.style = "width : 18rem; margin:10px; :hover";
   const restocard = `
         <img src="${restaurant.imageurl}" class="card-img-top" alt="...">
         <div class="card-body">

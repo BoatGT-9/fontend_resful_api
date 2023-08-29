@@ -13,11 +13,13 @@
 </head>
 
 <body onload="init()">
-    <div class="container">
+    <div class="container text-center">
         <h1>Grab Restaurant</h1>
 
-        <din class="row form">
-            <div class="col-6 card justify-centen-center">
+        <center>
+
+            <din class="rowform ">
+                <div class="col-6 card justify-centen-center">
                 <h5 class="card-header">
                     Add new restaurants
                 </h5>
@@ -39,12 +41,17 @@
                             <label for="id"> Restaurant imageURL</label>
                             <input type="text" class="form-control" id="imageURL" placeholder="Restaurant imageURL">
                         </div>
-                        <button type="submit" class="btn btn-susccess" onclick="edit(); return false"  >Submit</button>
-                        <a href="index.html" class="btn btn-danger">cencel</a>
+                       
+                            <button type="submit" class="btn" onclick="edit(); return false"  >แก้ไขเรียบร้อย</button>
+                            <a href="index.html" class="btn">กลับหน้าหลัก</a>
+                        
                     </form>
                 </div>
             </div>
         </din>
+    </center>
+
+        
     </div>
     <script src="edit.js"></script>
 </body>
